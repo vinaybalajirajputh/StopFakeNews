@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100px;
+  height: 20px;
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn:hover {background: #eee;}
+.fact {color: green;}
+.fake {color: red;}
+
+
+</style>
+</head>
 <body>
 
-Checkbox: <input type="checkbox" id="myCheck"  onclick="myFunction()">
-
-<p id="text" style="display:none">Checkbox is CHECKED!</p>
+<table align="center" ><tr><td>
+  <label width = 100px for="male">Overall Score</label>
+  <label width = 100px for="male">10.0</label>
+</td><td>
+<table>
+  <tr>
+    <th>Amt</th>
+    <th>Score</th>
+    <th>9.0</th>
+  </tr>
+  <tr>
+    <th>Citizen</th>
+    <th>Score</th>
+    <th>9.0</th>
+  </tr>
+  <tr>
+    <th>User</th>
+    <th><button class="btn fact">Fact</button></th>
+    <th><button class="btn fake">Fake</button></th>
+  </tr>
+</table>
+</td></tr></table>
 
 </body>
 </html>
-
