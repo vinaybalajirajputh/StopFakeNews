@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form name="Rating">
+<h1>Rating Addition Test</h1>
+<label for="Citizen rating">Citizen rating:</label><br>
+<input type="number" id="ctrating" name="ctrating" value="5"><br>
+<label for="User rating">User rating:</label><br>
+<input type="number" id="usrrating" name="usrrating" value="10"><br>
+<label for="Overall rating">Overall rating:</label><br>
+<input type="number" id="overallrating" name="overallrating" value="eval(document.Rating.ctrating.value)+5"><br>
+<input type="button" value="  =  " onClick="document.Rating.overallrating.value = eval(document.Rating.ctrating.value)+eval(document.Rating.usrrating.value)"/>
+</body>
+</html>
