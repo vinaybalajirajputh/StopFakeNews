@@ -9,12 +9,12 @@ Beauty of it is that it involves citizens and authorities to work hand in hand i
 
 Some more information can be found under following links:
 - https://devpost.com/software/stopfakenewsspreading#
-- YOUTUBE LINK HERE
+- https://www.youtube.com/watch?v=ejLL7wa7_Es&feature=emb_logo
   
 
 ### How to use the application
 - Install the chrome application in your chrome browser and this can be done as following:
-  - Checkout/Clone version 1.0.0 from the master branch of the git repository.
+  - Checkout/Clone **version 1.0.0 from the master** branch of the git repository.
   - Open chrome browser and navigate to extension window by providing following url "chrome://extension" or by
     - Clicking the three dot buttons in toolbar.
     - Now by selecting "More tools" option and then "Extension".
