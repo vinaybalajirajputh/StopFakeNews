@@ -178,12 +178,10 @@ chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
 			  dbRef_3_c.once('value', function(snapshot){
 			    c_score.innerText = snapshot.val()-1;
 			    dbRef_3_c.set(snapshot.val()-1);
-			  })
+			  });
 			  
-			  dbRef_3_o.once('value', function(snapshot){
-			    o_score.innerText = snapshot.val()-1;
-			    dbRef_3_o.set(snapshot.val()-1);
-			  })
+			 dbRef_3_o.once('value', snap=>a_score.innerText = snap.val());
+
 	  }
 	})
 
