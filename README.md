@@ -9,7 +9,7 @@ Beauty of it is that it involves citizens and authorities to work hand in hand i
 
 Some more information can be found under following links:
 - https://devpost.com/software/stopfakenewsspreading#
-- https://www.youtube.com/watch?v=KRRR7F44G5I&rel=0
+- https://www.youtube.com/watch?v=cKHV3vhVlXc&rel=0
   
 
 ### How to use the application
