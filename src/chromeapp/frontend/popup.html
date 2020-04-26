@@ -1,54 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
+<body style="background-color:#000000;">
 <style>
+.button {
 
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  width: 100px;
-  height: 20px;
-}
-
-.btn {
-  border: none;
-  background-color: inherit;
-  padding: 10px 15px;
-  font-size: 16px;
+  text-align: center;
   cursor: pointer;
-  display: inline-block;
+  outline: none;
+  border: none;
+  border-radius: 5px;
 }
-.btn:hover {background: #eee;}
-.fact {color: green;}
-.fake {color: red;}
 
-
+.button:active {
+  transform: translateY(1px);
+}
 </style>
-</head>
-<body>
 
-<table align="center" ><tr><td>
-  <label width = 100px for="male">Overall Score</label>
-  <label width = 100px for="male">10.0</label>
-</td><td>
-<table>
-  <tr>
-    <th>Amt</th>
-    <th>Score</th>
-    <th>9.0</th>
-  </tr>
-  <tr>
-    <th>Citizen</th>
-    <th>Score</th>
-    <th>9.0</th>
-  </tr>
-  <tr>
-    <th>User</th>
-    <th><button class="btn fact">Fact</button></th>
-    <th><button class="btn fake">Fake</button></th>
-  </tr>
+<p style="text-align: center; color: #ffffff; font: Helvetica"><b>Stop Fake News Spreading | Website trustworthiness&nbsp;rating</b></p>
+<table class="editorDemoTable" style="height: 70px; width: 450px; vertical-align: top; border-style: solid; background-color: #383636; border-color: #383636;" border="#383636">
+<tbody>
+<tr style="height: 30px;">
+<td style="min-width: 140px; width: 140px; height: 70px; text-align: center; background-color: #000000;" rowspan="3">
+<p><span style="color: #ffffff; font: Helvetica">Overall Rating</span>
+<span style="color: #33cccc; font: Helvetica; font-size: 50px;">9.0</span></p>
+</td>
+<td style="width: 201px; height: 30px; background-color: #1c1b1b"><span style="color: #ffffff;">Official Authorities Rating</span></td>
+<td colspan="2" style="text-align: center; width: 146px; height: 30px; background-color: #000000;"><span style="color: #33cccc; font: Helvetica font-size:25px">9.0</span></td>
+</tr>
+<tr style="height: 10px;">
+<td style="width: 201px; height: 30px; background-color: #1c1b1b"><span style="color: #ffffff; font: Helvetica">Citizen Rating</span></td>
+<td colspan="2" style="text-align: center; width: 146px; height: 30x; background-color: #000000;"><span style="color: #33cccc; font: Helvetica font-size:25px">9.0</span></td>
+</tr>
+<tr style="height: 10px;">
+<td style="width: 201px; height: 10px; background-color: #1c1b1b"><span style="color: #ffffff; font: Helvetica">User Feedback</span></td>
+<td style="height: 10px; width: 57px; text-align: center; background-color: #1c1b1b"><span style="display: inline-block; background-color:#008000; padding: 2px 8px; border-radius: 5px;"><button class="button" style="background-color: #008000; border: none; font: Helvetica; color: #FFFFFF; width:70px; border-radius: 2px;">Fact</button></span></td>
+<td style="width: 89px; height: 10px; text-align: center; background-color: #1c1b1b"><span style="display: inline-block; background-color:#FF0000; padding: 2px 8px; border-radius: 5px;"><button class="button" style="background-color: #FF0000; border: none; font: Helvetica; color: #FFFFFF; width:70px; border-radius: 2px;">Fake</button></span></td>
+</tr>
+</tbody>
 </table>
-</td></tr></table>
+
+<p hidden style="text-align: center; font: Helvetica"> &nbsp</p>
 
 </body>
 </html>
