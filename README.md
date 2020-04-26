@@ -24,3 +24,7 @@ Some more information can be found under following links:
 - In the pop window you can see the overall, official authorties and citizens score of the current webpage.
 - You can also rate the webpage as Fact or Fake. 
 - Your Rating will be directly added to the overall rating and be saved for other users visiting the same webpage.
+
+### Further developments and challanges
+- Reach out to more number of official authorities to perfom validating activity
+- Integrate with AI models which will automatically scan official websites and update the score
