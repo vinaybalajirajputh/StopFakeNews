@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <body style="background-color:#000000;">
+  <script src="firebase.js"></script>
+  <script src="popup.js"></script>
+  <script src="background.js"></script>
 <style>
 .button {
 
@@ -21,20 +24,20 @@
 <tbody>
 <tr style="height: 30px;">
 <td style="min-width: 140px; width: 140px; height: 70px; text-align: center; background-color: #000000;" rowspan="3">
-<p><span style="color: #ffffff; font: Helvetica">Overall Rating</span>
-<span style="color: #33cccc; font: Helvetica; font-size: 50px;">9.0</span></p>
+<p><span style="color: #ffffff; font: Helvetica">Overall Rating<br /></span>
+<span style="color: #33cccc; font: Helvetica; font-size: 50px;" id="o_score">0</span></p>
 </td>
 <td style="width: 201px; height: 30px; background-color: #1c1b1b"><span style="color: #ffffff;">Official Authorities Rating</span></td>
-<td colspan="2" style="text-align: center; width: 146px; height: 30px; background-color: #000000;"><span style="color: #33cccc; font: Helvetica font-size:25px">9.0</span></td>
+<td colspan="2" style="text-align: center; width: 146px; height: 30px; background-color: #000000;"><span style="color: #33cccc; font: Helvetica font-size:25px" id="a_score">0</span></td>
 </tr>
 <tr style="height: 10px;">
 <td style="width: 201px; height: 30px; background-color: #1c1b1b"><span style="color: #ffffff; font: Helvetica">Citizen Rating</span></td>
-<td colspan="2" style="text-align: center; width: 146px; height: 30x; background-color: #000000;"><span style="color: #33cccc; font: Helvetica font-size:25px">9.0</span></td>
+<td colspan="2" style="text-align: center; width: 146px; height: 30x; background-color: #000000;"><span style="color: #33cccc; font: Helvetica font-size:25px" id="c_score">0</span></td>
 </tr>
 <tr style="height: 10px;">
 <td style="width: 201px; height: 10px; background-color: #1c1b1b"><span style="color: #ffffff; font: Helvetica">User Feedback</span></td>
-<td style="height: 10px; width: 57px; text-align: center; background-color: #1c1b1b"><span style="display: inline-block; background-color:#008000; padding: 2px 8px; border-radius: 5px;"><button class="button" style="background-color: #008000; border: none; font: Helvetica; color: #FFFFFF; width:70px; border-radius: 2px;">Fact</button></span></td>
-<td style="width: 89px; height: 10px; text-align: center; background-color: #1c1b1b"><span style="display: inline-block; background-color:#FF0000; padding: 2px 8px; border-radius: 5px;"><button class="button" style="background-color: #FF0000; border: none; font: Helvetica; color: #FFFFFF; width:70px; border-radius: 2px;">Fake</button></span></td>
+<td style="height: 10px; width: 57px; text-align: center; background-color: #1c1b1b"><span style="display: inline-block; background-color:#008000; padding: 2px 8px; border-radius: 5px;"><button class="button" style="background-color: #008000; border: none; font: Helvetica; color: #FFFFFF; width:70px; border-radius: 2px;" id="fact_b" type="submit" onclick="fact_click()">Fact</button></span></td>
+<td style="width: 89px; height: 10px; text-align: center; background-color: #1c1b1b"><span style="display: inline-block; background-color:#FF0000; padding: 2px 8px; border-radius: 5px;"><button class="button" style="background-color: #FF0000; border: none; font: Helvetica; color: #FFFFFF; width:70px; border-radius: 2px;" id="fake_b" type="submit" onclick="fake_click()">Fake</button></span></td>
 </tr>
 </tbody>
 </table>

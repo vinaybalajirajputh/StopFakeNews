@@ -2,11 +2,27 @@
   "name": "Stop Fake News",
   "description" : "Stop Fake News",
   "version": "1.0",
+  "minimum_chrome_version": "46",
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon": "images/icon.png"
   },
-  "permissions": ["storage"],
+  "permissions": [
+    "tabs",
+    "background",
+    "contextMenus",
+    "clipboardRead",
+    "clipboardWrite",
+    "tabs",
+    "storage",
+    "identity",
+    "notifications"
+  ],
+  "optional_permissions": [],
+  "content_security_policy":"script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'",
+  "externally_connectable": {
+    "ids": ["*"]
+},
   "background": {
     "scripts": ["background.js"],
     "persistent": false

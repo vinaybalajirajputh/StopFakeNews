@@ -1,7 +1,3 @@
-// Copyright 2018 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
 'use strict';
 
 chrome.runtime.onInstalled.addListener(function() {
@@ -11,3 +7,11 @@ chrome.runtime.onInstalled.addListener(function() {
 });
 
 
+// Comment out (or don't require) services you don't want to use
+// require("firebase/storage");
+
+//let button = document.getElementById('Submit');
+
+//button.onclick = function(element) {
+//  console.log("STOP FAKE NEWS CHROME EXTENSION INTIALIZED !!!");
+//}
