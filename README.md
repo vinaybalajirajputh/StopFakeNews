@@ -22,5 +22,5 @@ Some more information can be found under following links:
 - Now go to the website [dummywebsite-d9505.firebaseapp.com/](https://dummywebsite-d9505.firebaseapp.com/) and open "[Fake Website](https://dummywebsite-d9505.firebaseapp.com/first.html)" or "[Not Fake Website](https://dummywebsite-d9505.firebaseapp.com/second.html)".
 - Select the extension Stop Fake News in the upper control/toolbar bar from the chrome browser
 - In the pop window you can see the overall, official authorties and citizens score of the current webpage.
-- You can also rate it by yourself as Fact or Fake. 
-- Your Rating will be directly calculated to the overall rating and be saved for other users visiting the same webpage.
+- You can also rate the webpage as Fact or Fake. 
+- Your Rating will be directly added to the overall rating and be saved for other users visiting the same webpage.
