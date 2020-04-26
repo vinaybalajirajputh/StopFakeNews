@@ -1,15 +1,30 @@
 <html>
     <head>
         <title>Base</title>
+        <style>
+            h1 {
+                text-align: center;
+                color: darkblue;
+                margin-top: 50;
+            }
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
     </head>
     <body>
-        <h1> Base Header!</h1>
-        <form method="get" action="/first">
-            <button id="firstPage">First page!</button>
-        </form>
-        <form method="get" action="/second">
-            <button id="secondPage">Second Page!</button>
-        </form>
+        <img src="images/Pan-EUHackthron_topbanner-V2.jpg" width="800" class="center">
+        <h1>Home of dummy website.</h1>
+        <div style="text-align: center;margin-top: 50;">
+            <button id="firstPage">
+                <a href="/first.html">Fake Website</a>
+            </button> 
+            <button id="secondPage"> 
+                <a href="/second.html">No Fake Website</a>
+            </button>
+        </div>
     </body>
     <script src="client.js"></script>
 </html>
