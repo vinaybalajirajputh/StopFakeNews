@@ -19,7 +19,7 @@ Some more information can be found under following links:
     - Clicking the three dot buttons in toolbar.
     - Now by selecting "More tools" option and then "Extension".
   - Now you will be displayed a extension window. In this window you have to select "Load unpacked" button and select the frontend (src/chromeapp/frontend) directory present in your local machine. This will install the chrome extension app and is visile in the toolbar.
-- Now go to the website [dummywebsite-d9505.firebaseapp.com/](https://dummywebsite-d9505.firebaseapp.com/)
+- Now go to the website [dummywebsite-d9505.firebaseapp.com/](https://dummywebsite-d9505.firebaseapp.com/) and open "Fake Website" or "Not Fake Website".
 - Select the extension Stop Fake News in the upper control/toolbar bar from the chrome browser
 - In the pop window you can see the overall, official authorties and citizens score of the current webpage.
 - You can also rate it by yourself as Fact or Fake. 
